@@ -15,7 +15,7 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 88px; }
-body { margin: 0; color: var(--ink); font-family: Inter, Arial, sans-serif; line-height: 1.55; background: #fff; }
+body { margin: 0; color: var(--ink); font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.55; background: #fff; }
 img { max-width: 100%; display: block; }
 a { color: inherit; text-decoration: none; }
 
