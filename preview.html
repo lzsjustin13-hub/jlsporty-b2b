@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banner Preview - JuLong Sports B2B</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    /* Banner Preview Specific Refinements */
+    .preview-badge {
+      position: fixed;
+      top: 12px;
+      right: 180px;
+      background: #0757b8;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 6px 14px;
+      border-radius: 20px;
+      z-index: 100;
+      letter-spacing: 0.05em;
+      box-shadow: 0 4px 12px rgba(7,87,184,0.3);
+    }
+    .hero.hero-preview {
+      min-height: 560px;
+      background: linear-gradient(90deg, #f0f6fc 0%, #e2eef9 35%, #cde1f4 65%, #9bc2e5 100%);
+    }
+    .hero-preview .hero-photo {
+      inset: 0 0 0 28%;
+      background-image: linear-gradient(90deg, #f0f6fc 0%, rgba(240,246,252,0.85) 15%, rgba(240,246,252,0.2) 35%, transparent 60%), url('assets/images/hero-new-banner.jpg');
+      background-size: cover;
+      background-position: center 48%;
+      mix-blend-mode: normal;
+      opacity: 1;
+    }
+    .hero-preview .hero-content {
+      width: min(640px, 50%);
+      padding: 72px 0 76px 7.2%;
+    }
+    /* VLT Annotation Tag on Sunglasses */
+    .vlt-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(16, 41, 68, 0.85);
+      backdrop-filter: blur(8px);
+      color: #7dd3fc;
+      padding: 5px 12px;
+      border-radius: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      margin-top: 14px;
+      border: 1px solid rgba(125, 211, 252, 0.3);
+    }
+    .vlt-tag span {
+      color: #fff;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-badge">🚀 Banner 实时预览版 (New Banner Preview)</div>
+  <div class="top-note">Sports eyewear manufacturing for global brands · OEM / ODM · Private Label</div>
+  <header class="site-header">
+    <a class="brand" href="#">JuLong<span>Sports</span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+    <nav class="nav">
+      <a href="#products">Products</a>
+      <a href="#customization">OEM / ODM</a>
+      <a href="#process">Process</a>
+      <a href="#capabilities">Capabilities</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#contact">Request a Quote <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero hero-preview" id="home">
+      <div class="hero-photo" role="img" aria-label="High-performance alpine sports sunglasses with ice-blue mirror cylindrical lens on granite summit"></div>
+      <div class="hero-content">
+        <p class="eyebrow">PROFESSIONAL SPORTS EYEWEAR MANUFACTURER</p>
+        <h1>Sports Sunglasses<br><em>OEM/ODM Manufacturer</em></h1>
+        <p class="hero-sub">From Concept to Mass Production</p>
+        <p class="hero-copy">Engineered for extreme alpine and high-glare environments. High-definition cylindrical shield lens with ice-blue Revo mirror coating and UV400 protection.</p>
+        
+        <div class="vlt-tag">
+          ⚡ Lens Tech: <span>Cat.3 Ice-Blue Revo Polarized (VLT 12% - 15%)</span>
+        </div>
+
+        <div class="hero-points">
+          <div><span class="point-icon">✎</span><b>Design</b><small>Aerodynamic Frame</small></div>
+          <div><span class="point-icon">⚙</span><b>Develop</b><small>Impact Resistant PC</small></div>
+          <div><span class="point-icon">◇</span><b>Customize</b><small>Revo / Photochromic</small></div>
+          <div><span class="point-icon">↗</span><b>Deliver</b><small>Global B2B Supply</small></div>
+        </div>
+        <a class="btn btn-primary" href="#contact">Request a Quote <span>→</span></a>
+      </div>
+      <div class="hero-bottom-note"><span>01</span> ALPINE PERFORMANCE SERIES <i></i> HIGH-ALTITUDE UV400 PROTECTION</div>
+    </section>
+
+    <section class="stats-bar" aria-label="Manufacturing highlights">
+      <div class="stat"><strong>16+</strong><span>Years Experience</span></div>
+      <div class="stat"><strong>200+</strong><span>Product Styles</span></div>
+      <div class="stat"><strong>OEM / ODM</strong><span>Customization Support</span></div>
+      <div class="stat"><strong>Global</strong><span>Supply Network</span></div>
+      <div class="stat"><strong>Quality</strong><span>Focused Process</span></div>
+    </section>
+  </main>
+</body>
+</html>
