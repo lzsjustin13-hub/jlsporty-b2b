@@ -115,9 +115,9 @@ a { color: inherit; text-decoration: none; }
 .hero-photo {
   position: absolute;
   inset: 0;
-  background-image: url('../images/hero-seamless.webp');
+  background-image: url('../images/hero-banner-main.webp');
   background-size: cover;
-  background-position: right center;
+  background-position: center;
   mix-blend-mode: normal;
   opacity: 1;
 }
@@ -640,7 +640,7 @@ h1 em { font-style: normal; color: var(--blue); }
   .hero { min-height: 660px; align-items: flex-start; }
   .hero-photo {
     inset: 280px 0 0 0;
-    background-image: linear-gradient(180deg, #f0f6fc 0%, rgba(240, 246, 252, 0) 30%), url('../images/hero-seamless.webp');
+    background-image: linear-gradient(180deg, #f0f6fc 0%, rgba(240, 246, 252, 0) 30%), url('../images/hero-banner-main.webp');
     background-position: center;
     background-size: cover;
   }
